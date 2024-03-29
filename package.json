@@ -1,0 +1,30 @@
+{
+  "name": "03-project-cli_number_guessing_game",
+  "version": "2.0.2",
+  "description": "cli gussing game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "03-project-cli_number_guessing_game": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.72",
+    "@types/react-dom": "^18.2.22",
+    "03-project-cli_number_guessing_game": "^2.0.2",
+    "inquirer": "^9.2.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
